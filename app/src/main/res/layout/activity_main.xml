@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
+    android:background="#18204C"
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
@@ -32,7 +32,7 @@
             android:layout_marginTop="5dp"
             app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView1"
@@ -42,7 +42,7 @@
             android:layout_marginTop="5dp"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -52,7 +52,7 @@
             android:layout_marginTop="5dp"
             app:layout_column="2"
             app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -62,7 +62,7 @@
             android:layout_marginTop="10dp"
             app:layout_column="0"
             app:layout_row="1"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -72,7 +72,7 @@
             android:layout_marginTop="15dp"
             app:layout_column="1"
             app:layout_row="1"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -82,7 +82,7 @@
             android:layout_marginTop="15dp"
             app:layout_column="2"
             app:layout_row="1"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -92,7 +92,7 @@
             android:layout_marginTop="20dp"
             app:layout_column="0"
             app:layout_row="2"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin"/>
 
         <ImageView
             android:id="@+id/imageView7"
@@ -102,17 +102,18 @@
             android:layout_marginTop="20dp"
             app:layout_column="1"
             app:layout_row="2"
-            app:srcCompat="@drawable/red" />
+            android:onClick="dropin"
+             />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="118dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="20dp"
-            android:layout_height="120dp"
+            android:onClick="dropin"
             app:layout_column="2"
-            app:layout_row="2"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="2" />
 
     </androidx.gridlayout.widget.GridLayout>
 
